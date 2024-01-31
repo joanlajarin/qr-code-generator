@@ -79,7 +79,15 @@ main {
     gap: 20px;
 }
 
-.qr-code-img {
+.qr-container { 
+    background-color: #4e80ee33;
+    border-radius: 50%;
     width: 307px;
     height: 307px;
+    padding: 40px;
+}
+.qr-code-img {
+    border: 20px solid  #F2F5F9;
+    width: 250px;
+    height: 250px;
 }
