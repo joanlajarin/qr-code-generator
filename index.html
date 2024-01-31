@@ -8,15 +8,15 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <main>
+        <main class="main-index">
             <section class="section-main">
                 <img class="logo" src="logo-qr-generator.svg">
-                <div class="search-bar">
-                    <input id="input-form" class="input-url" type="url" placeholder="Enter an url" required> 
+                <form class="search-bar">
+                    <input  id="input-form" class="input-url" type="url" size="1" placeholder="Enter an url" pattern="*.*"required /> 
                     <button id="btn-search" class="btn-qr">QR code</button>
-                </div>
+                </form>
             </section>
-        </main>
+        </main class="main-index">
     </body>
     <script type="text/javascript" src="script.js"></script>
 </html>
